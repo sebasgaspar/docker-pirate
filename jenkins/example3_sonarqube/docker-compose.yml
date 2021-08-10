@@ -3,7 +3,7 @@ version: "3.8"
 services:
   myjenkins:
     container_name: my_custom_jenkins
-    image: jenkins/jenkins:lts
+    image: jenkins/jenkins:latest
     user: root
     environment:
       MY_NAME: "santi_devops"
